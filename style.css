@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(0, 32, 53);
+  background-color: rgb(28 0 37);
   margin: 0;
   padding: 0;
 }
@@ -12,7 +12,7 @@ header {
 }
 .tap,
 .level {
-  background-color: brown;
+  background-color: #2aa59b;
   width: 6rem;
   height: 4rem;
   display: flex;
@@ -20,23 +20,39 @@ header {
   align-items: center;
   font-size: 1.2rem;
 }
+main{
+  display: flex;
+  flex-direction: column;
+}
+.numberScore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.numberScore img{
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  border-radius: 50%;
+  border: 2px solid yellow;
+}
 .score {
   text-align: center;
   color: #fff;
-  margin: 5rem 0;
+  margin: 4rem 0;
 }
 .tap-score {
-  width: 15rem;
-  height: 15rem;
+  width: 17rem;
+  height: 17rem;
   margin: auto;
   border-radius: 50%;
   filter: brightness(70%);
-  border: 5px solid red;
+  border: 5px solid #2aa59b;
 }
 .border {
-  border: 5px solid rgb(246, 255, 0);
-  width: 17rem;
-  height: 17rem;
+  border: 5px solid rgb(251, 0, 255);
+  width: 15rem;
+  height: 15rem;
 }
 .img1 {
   background: url("IMG_20241006_225645_547.jpg");
@@ -47,4 +63,66 @@ header {
   background: url("IMG_20241006_225646_147 - Copy.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.img3 {
+  background: url("IMG_20241008_182926_193.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.img4 {
+  background: url("IMG_20241008_182924_798.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+footer{
+  background-color: #040404;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+
+}
+.cart{
+  background-color: #2aa59b;
+  margin: 0.4rem 0;
+  width: 83px;
+  border-radius: 20px;
+  border: 2px solid yellow;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.makhfi{
+  width: 100%;
+  height: 76vh;
+  background-color: #040404;
+  position: absolute;
+  bottom: 6px;
+  left: 300px;
+  /* padding: 2rem; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.nashan{
+  left: 0;
+  transition: all 200ms ease-in-out;
+
+}
+
+
+
+.cc{
+  background-color: brown;
+  width: 70px;
+  height: 148px;
+  /* margin: 0.2rem; */
 }
