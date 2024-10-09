@@ -2,6 +2,8 @@ body {
   background-color: rgb(28 0 37);
   margin: 0;
   padding: 0;
+  height: 100vh;
+  position: relative;
   overflow: hidden;
 }
 header {
@@ -30,7 +32,7 @@ main{
   justify-content: center;
   align-items: center;
 }
-.numberScore img{
+.sakeh{
   width: 40px;
   height: 40px;
   margin-right: 1rem;
@@ -82,7 +84,7 @@ footer{
   background-color: #040404;
   width: 100%;
   height: 100px;
-  position: absolute;
+  position:   absolute;
   bottom: 0;
   display: flex;
   justify-content: space-around;
@@ -94,9 +96,54 @@ footer{
   width: 83px;
   border-radius: 20px;
   border: 2px solid yellow;
-  font-size: 10px;
+  font-size: 23px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+ .makhfi{
+  width: 100%;
+  height: 76vh;
+  background-color: #132929;
+  position: absolute;
+  bottom: -76vh;
+  /* padding: 2rem; */
+  /* display: flex;
+align-items: center;
+  flex-direction: column; */
+  transition: all 200ms ease-in-out;
+}
+.nashan{
+  bottom: 14vh;
+  transition: all 200ms ease-in-out;
+}
 
+
+
+.cc{
+  background-color: brown;
+  width: 12rem;
+  height: 3.5rem;
+  margin: 5rem auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.cc div{
+  display: flex;
+  align-items: center;
+}
+.amteyaz-khared{
+  font-size: 20px;
+    color: #d9ff15;
+    font-weight: 900;
+}
+.active{
+  background-color: rgb(129, 114, 114);
+}
+.body-color{
+  background: linear-gradient(45deg, #faff00, #650000);
+}
