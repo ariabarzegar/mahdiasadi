@@ -99,31 +99,4 @@ footer{
   justify-content: center;
   align-items: center;
 }
-.makhfi{
-  width: 100%;
-  height: 76vh;
-  background-color: #040404;
-  position: absolute;
-  bottom: 6px;
-  left: 300px;
-  /* padding: 2rem; */
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
 
-}
-.nashan{
-  left: 0;
-  transition: all 200ms ease-in-out;
-
-}
-
-
-
-.cc{
-  background-color: brown;
-  width: 70px;
-  height: 148px;
-  /* margin: 0.2rem; */
-}
