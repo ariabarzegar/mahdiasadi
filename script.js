@@ -2,12 +2,12 @@ let $ = document;
 let selectTap = $.querySelector(".tap-score");
 let selectScore = $.querySelector(".score");
 let levelNumber = $.querySelector(".level-number");
-let cart = $.querySelectorAll(".cart");
-let makhfi = $.querySelector(".makhfi");
-let main = $.querySelector("main");
+//let cart = $.querySelectorAll(".cart");
+//let makhfi = $.querySelector(".makhfi");
+//let main = $.querySelector("main");
 let a = 0;
 
-cart.forEach((element)=>{
+/*cart.forEach((element)=>{
   element.addEventListener("click",()=>{
     makhfi.classList.add("nashan")
   })
@@ -16,7 +16,7 @@ cart.forEach((element)=>{
 
 main.addEventListener("click",()=>{
   makhfi.classList.remove("nashan")
-})
+})*/
 
 
 let addScore = () => {
