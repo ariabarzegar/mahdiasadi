@@ -147,3 +147,12 @@ align-items: center;
 .body-color{
   background: linear-gradient(45deg, #faff00, #650000);
 }
+
+body{
+  background: url("Untitled-5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+header,main,footer{
+  display: none;
+}
